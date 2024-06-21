@@ -26,6 +26,7 @@ Clone this repository to your local machine using the following command:
 git clone https://github.com/scalablescripts/python-microservices.git
 cd python-microservices
 
+
 # Create a virtual environment
 python -m venv venv
 
