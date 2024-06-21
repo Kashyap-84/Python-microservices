@@ -7,9 +7,6 @@ This project provides a tutorial on building a microservices architecture using 
 - [Installation](#installation)
 - [Running the Services](#running-the-services)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
@@ -22,13 +19,12 @@ Before you begin, ensure you have the following installed on your local machine:
 
 ### Step 1: Clone the Repository
     Clone this repository to your local machine using the following command:
-    ```sh
+    
       git clone https://github.com/scalablescripts/python-microservices.git
       cd python-microservices
 
 ### Step 2 : Set Up Virtual Environment
 
-      ```sh 
       # Create a virtual environment
       python -m venv venv
       
@@ -43,7 +39,6 @@ Before you begin, ensure you have the following installed on your local machine:
 Install the required Python packages using pip:
 
 
-    ```sh 
     pip install -r requirements.txt
 
 
@@ -55,7 +50,6 @@ Install the required Python packages using pip:
 The project uses Docker to manage and run the microservices. Use Docker Compose to start all the services defined in the docker-compose.yml file:
 
 
-    ``` sh 
 
     docker-compose up --build
 
@@ -65,7 +59,6 @@ The project uses Docker to manage and run the microservices. Use Docker Compose 
 
 After running the above command, the microservices will be running on different ports. You can check the status and logs of the running services using:
 
-    ``` sh 
     
     docker-compose ps
     docker-compose logs -f
