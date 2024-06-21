@@ -70,23 +70,23 @@ After running the above command, the microservices will be running on different 
 Here’s a brief overview of the project structure:
 
 
-python-microservices/
-│
-├── user_service/
-│   ├── app.py
-│   ├── Dockerfile
-│   └── ...
-│
-├── product_service/
-│   ├── app.py
-│   ├── Dockerfile
-│   └── ...
-│
-├── order_service/
-│   ├── app.py
-│   ├── Dockerfile
-│   └── ...
-│
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
+                python-microservices/
+                │
+                ├── user_service/
+                │   ├── app.py
+                │   ├── Dockerfile
+                │   └── ...
+                │
+                ├── product_service/
+                │   ├── app.py
+                │   ├── Dockerfile
+                │   └── ...
+                │
+                ├── order_service/
+                │   ├── app.py
+                │   ├── Dockerfile
+                │   └── ...
+                │
+                ├── docker-compose.yml
+                ├── requirements.txt
+                └── README.md
